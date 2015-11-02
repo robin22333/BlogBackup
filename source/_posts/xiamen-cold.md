@@ -6,14 +6,14 @@ tags:
 ---
 今天难得工作清闲，想把博客迁移到云服务器上，但是觉得这样管理起来好麻烦，我是一个喜欢偷懒的人，于是想用静态站点来管理博客。
 
-<!--more-->
 
 优势:
-* 管理方便，我只需把精力放在写文章上。
-* 支持 Markdown 。
-* 可以使用喜欢的编辑器。
-* 可以托管到 Github Pages。
+1. 管理方便，我只需把精力放在写文章上。
+2. 支持 Markdown 。
+3. 可以使用喜欢的编辑器。
+4. 可以托管到 Github Pages。
 
+<!--more-->
 
 最终在 Jekyll 和 Hexo 中选择了 Hexo , Hexo 是一个基本 Nodejs 的框架，可以实现一个静态网页组成的博客，因为我比较熟悉 Node 所以选择了 Hexo （最主要是安装 Jekyll 一直报错又解决不了- -）。
 
@@ -22,4 +22,4 @@ tags:
 
 
 天冷了，要穿暖和来~
-![cold](/assets/xiamen_cold.jpg)
+![xiamen](/assets/blog_img/xiamen_cold.jpg)
