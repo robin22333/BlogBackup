@@ -67,7 +67,7 @@ require([], function (){
 				$(".article-inner .fancy-ctn").fancybox();
 			}
 		});
-		
+
 	}
 	//是否开启动画
 	if(yiliaConfig.animate === true){
@@ -79,7 +79,7 @@ require([], function (){
 				$(".js-avatar").addClass("show");
 			}
 		});
-		
+
 		if(yiliaConfig.isHome === true){
 			//content
 			function showArticle(){
@@ -99,12 +99,19 @@ require([], function (){
 			});
 			showArticle();
 		}
-		
+
 	}
-	
+
 	//是否加载ins
 	if($("#post-instagram").length != 0){
 		require(['/js/instagram.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(ins){
+			ins.init();
+		});
+	}
+
+	//是否加载daniela
+	if($("#post-daniela").length != 0){
+		require(['/js/daniela.js', '/fancybox/jquery.fancybox.js', '/js/jquery.lazyload.js'], function(ins){
 			ins.init();
 		});
 	}
@@ -113,5 +120,5 @@ require([], function (){
 	if(yiliaConfig.open_in_new == true){
 		$(".article a[href]").attr("target", "_blank")
 	}
-	
+
 });

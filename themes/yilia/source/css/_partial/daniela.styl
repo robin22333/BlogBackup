@@ -1,0 +1,96 @@
+#post-daniela{
+	.article-entry{
+		padding-right: 0;
+	}
+	padding: 30px;
+}
+.daniela{
+	position: relative;
+	min-height: 500px;
+}
+.daniela .open-ins{
+	display: block;
+	color: #333;
+	&:hover{
+		color: #657b83;
+	}
+}
+.daniela .year{
+}
+.daniela .album h1 em{
+	font-style: normal;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.daniela .album ul{
+	min-height: 149px;
+	padding-top: 17px;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+}
+.daniela .album li{
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	padding:0 5px;
+        height: 0;
+        margin-bottom: -10px;
+        width: 25%;
+        padding-bottom: 25%;
+	&:before{
+		display: none;
+	}
+}
+
+
+.daniela .album div.img-box{
+	position: relative;
+	margin: 0 20px 10px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
+}
+.daniela .album div.img-box .img-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+	margin: -5px;
+	padding: 5px;
+	background: rgba(204, 204, 204, 0.8) ;
+	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.15s ease-out 0.1s;
+	-moz-transition: all 0.15s ease-out 0.1s;
+	-o-transition: all 0.15s ease-out 0.1s;
+	transition: all 0.15s ease-out 0.1s;
+	opacity: 0.2;
+	cursor: pointer;
+	display: block;
+}
+.daniela .album div.img-box .img-bg:hover{
+	opacity: 0;
+}
+.daniela .album div.img-box img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+@media screen and (max-width:600px) {
+	.daniela .album ul {
+		margin-left: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.daniela .album li {
+		width: 100%;
+                position: relative;
+                padding-bottom: 100%;
+                text-align: center;
+	}
+	.daniela .album div.img-box{
+		margin: 0;
+	}
+}
