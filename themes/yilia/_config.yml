@@ -39,7 +39,7 @@ favicon: /favicon.ico
 
 #你的头像url
 #avatar: https://avatars1.githubusercontent.com/u/15028001?v=3&s=140
-avatar: /assets/head.jpg
+avatar: /assets/head2.jpg
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
@@ -64,4 +64,4 @@ friends: false
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 厦门大学嘉庚学院11级. Web 开发者.擅长 java , node.js , python .简单即是美~.
+aboutme: Web开发者 简约 简单.
