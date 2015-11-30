@@ -1,6 +1,6 @@
 title: 写给同事的Vue.js教程
 date: 2015-09-12 19:02:34
-tags: 
+tags:
     - 编程
     - Vue.js
 ---
@@ -102,5 +102,3 @@ vm 是一个同步 Model 和 View 的对象，每个 Vue 实例都是一个 View
 
 
 在 Vue 中最核心，也是作者最推崇的就是 Vue 的组件系统，学习请移步[组件系统](http://cn.vuejs.org/guide/components.html)
-
-
